@@ -7,7 +7,6 @@
   --dark-bg-color: #2f303a;
   --second-bg-color: #f5f4fa;
   --third-bg-color: #2196f3;
-  --button-bg-color: #f5f4fa;
 }
 
 body {
@@ -150,4 +149,47 @@ body {
   letter-spacing: 0.06em;
   color: var(--background-text-color);
   background-color: var(--third-bg-color);
+}
+
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-color);
+  background-color: var(--second-bg-color);
+}
+
+.button-current {
+  color: var(--background-text-color);
+  background-color: var(--third-bg-color);
+}
+
+.button-order,
+.button-filter {
+  cursor: pointer;
+}
+
+button:focus,
+button:hover,
+.portfolio:hover,
+.portfolio:focus {
+  background-color: var(--third-bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.portfolio-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
 }
